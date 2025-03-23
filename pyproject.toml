@@ -1,9 +1,11 @@
-[tool.poetry]
+[project]
 name = "edgeditection"
 version = "0.1.0"
 description = ""
 authors = ["sontyubo <sontyubo@gmail.com>"]
 readme = "README.md"
+
+[tool.poetry]
 packages = [
     { include = "utils", from = "src"},
 ]
