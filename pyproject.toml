@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "edgeditection"
+version = "0.1.0"
+description = ""
+authors = ["sontyubo <sontyubo@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "utils", from = "src"},
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+gradio = "^5.22.0"
+opencv-python = "^4.11.0.86"
+numpy = "^2.2.4"
+pillow = "^11.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
